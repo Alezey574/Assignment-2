@@ -1,0 +1,30 @@
+package qliksense;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+/**
+ *
+ * @author Aflah
+ */
+public class QlikSense {
+
+    public static void main(String[] args) {
+    
+     Date fromDate = null;
+     Date toDate = null;
+     String studentNumber = null;
+     char isODD;
+     char includeStudentNumber;
+     int n;
+    Scanner sc = new Scanner(System.in); 
+    
+    System.out.println("Enter From Date");  
+    String fromDateInput =  sc.next();
+    System.out.println(fromDateInput);
+    
+
