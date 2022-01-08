@@ -27,4 +27,4 @@ public class QlikSense {
     String fromDateInput =  sc.next();
     System.out.println(fromDateInput);
     
-
+Changes will be made from here onwareds and be considered as a new version
